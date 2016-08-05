@@ -1,12 +1,15 @@
-(1..100).each do |number|
-  if number%15 == 0
-    result = "fizzbuzz"
-  elsif number%3 == 0 
+(1..25).each do |number|
+  result = ""
+  if number%3 == 0
     result = "fizz"
-  elsif number%5 == 0 
-    result = "buzz"
-  else
+  end
+  if number%5 == 0
+    result = result + "buzz"
+  end
+  if result == ""
     result = number
   end
   puts result
 end
+
+
