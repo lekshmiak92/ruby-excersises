@@ -1,5 +1,5 @@
 (1..100).each do |number|
-  if number%5 == 0 && number%3 == 0
+  if number%15 == 0
     puts "fizzbuzz"
   elsif number%3 == 0 
     puts "fizz"
