@@ -1,11 +1,11 @@
-(1..100).each do |p|
-	if p%5 == 0 && p%3 == 0
+(1..100).each do |number|
+  if number%5 == 0 && number%3 == 0
     puts "fizzbuzz"
-  elsif p%3 == 0 
-   puts "fizz"
- elsif p%5 == 0 
-   puts "buzz"
- else
-   puts p
- end
+  elsif number%3 == 0 
+    puts "fizz"
+  elsif number%5 == 0 
+    puts "buzz"
+  else
+    puts number
+  end
 end
