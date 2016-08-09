@@ -7,9 +7,9 @@ def divisible_by_5?(number)
 end
 
 puts "enter the limit"
-lim = gets.to_i
+limit = gets.to_i
 
-1.upto(lim).each do |number|
+1.upto(limit).each do |number|
   result = ""
   if divisible_by_3?(number)
     result = "fizz"
